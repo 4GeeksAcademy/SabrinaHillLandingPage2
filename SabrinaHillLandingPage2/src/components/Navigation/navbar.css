@@ -1,0 +1,10 @@
+ul {
+    display: flex;
+    list-style: none;
+    font-size: 50px;
+}
+
+p {
+    font-size: 75px;
+    font-weight: bold;
+}
