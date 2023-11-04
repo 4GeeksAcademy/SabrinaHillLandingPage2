@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -6,32 +10,24 @@
 }
 
 ul {
-  display:flexbox;
+  display: flexbox;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: blueviolet;
-  font-size: 16px;
+  font-size: 22px;
 }
 li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; 
+  text-decoration: none;
   border-right: 1px solid #bbb;
-}
-
-#about{
-  font-size: 22px;
-  display:block;
-  justify-content: left;
-
 }
 
 li {
   float: left;
- 
 }
 
 li:last-child {
@@ -39,8 +35,8 @@ li:last-child {
 }
 
 p {
-  font-size: 12px;
-  }
+  font-size: 14px;
+}
 
 nav {
   background-color: white;

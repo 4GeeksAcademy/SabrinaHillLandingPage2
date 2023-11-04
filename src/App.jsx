@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import {Navbar} from './components/Navigation/Navbar'
 import {Landing} from './components/Navigation/Landing'
-import Footer from './components/Footer'
 
 
 function App() {
@@ -12,8 +11,6 @@ function App() {
     <>
       <Navbar />
       <Landing/>
-      <Footer/>
-
     </>
   )
 }

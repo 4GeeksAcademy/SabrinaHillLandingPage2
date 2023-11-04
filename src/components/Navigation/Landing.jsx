@@ -1,5 +1,6 @@
 import AboutMe from "../Aboutme";
 import ContactInfo from "../ContactInfo";
+import Footer from "../Footer";
 
 export function Landing() {
   return (
@@ -13,10 +14,12 @@ export function Landing() {
           <h2>Contact Information</h2>
           <ContactInfo/>
         </section>
-        
+       <section>
+          <Footer/>
+        </section>
       </main>
     </div>
   );
 }
 
-export default Landing;
+export default Landing
